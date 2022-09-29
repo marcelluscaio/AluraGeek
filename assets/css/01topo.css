@@ -1,0 +1,33 @@
+.topo-caixa{
+   margin: 0 6em;
+}
+
+.topo-titulo{
+   font-size: 1.75em;
+   font-weight: 700;
+}
+
+.topo-imagem{
+   margin: 1em 0 2em 0;
+}
+
+.geral-botao{
+   background-color: var(--azul);
+   color: var(--branco-principal);
+   border-radius: 5px;
+   display: block;
+   text-decoration: none;
+   
+   padding: 1em;
+   margin-bottom: 1em ;
+}
+
+.botao-transparente{
+   background-color: transparent;
+   border: 2px solid var(--branco-principal);
+}
+
+.topo-aviso{
+   font-size: 0.75em;
+   color: var(--cinza);
+}

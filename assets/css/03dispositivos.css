@@ -1,0 +1,22 @@
+.dispositivos{
+   text-align: center;
+}
+
+.dispositivos-lista{
+   display: flex;
+   justify-content: space-around;
+
+   list-style-type: none;
+
+   margin: 3em 0 9em;
+
+}
+
+.dispositivos-titulo{
+   font-size: 3em;
+   font-weight: 700;
+}
+
+.lista-legenda{
+   font-size: 2em;
+}

@@ -1,0 +1,43 @@
+:root{
+   --branco-principal: #ffffff;
+   --cinza: #c0c0c0;
+   --cinza-claro: #c9c9c9;
+   --azul: #167bf7;
+   --preto: #00030c;
+
+   --fonte-principal: 'Inter', sans-serif;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: var(--preto);
+   color: var(--branco-principal);
+   font-family: var(--fonte-principal);
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;   
+
+   height: 100vh;
+}
+
+.topo{
+   background-image: url("../img/Background.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+   text-align: center;
+}
+
+.rodape{
+   margin: 0 7.5em 6em;
+}  

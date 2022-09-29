@@ -1,0 +1,25 @@
+.meio-imagem{   
+   justify-self: center;
+   width: 80%;
+}
+
+.meio-descricao{
+   padding: 3em;
+}
+
+.descricao-titulo{
+   font-size: 3em;
+   font-weight: 700;
+   
+   margin-bottom: 0.1em;   
+}
+
+.descricao-texto{
+   color: var(--cinza-claro);   
+}
+
+.meio-botao{
+   display: inline-block;
+
+   margin-top: 1em;
+}
